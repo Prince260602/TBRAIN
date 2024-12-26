@@ -97,7 +97,7 @@ WSGI_APPLICATION = 'brain.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # default='postgresql://ten_brain_4fbd_user:84AaYq0fOoO6vbNmy7RSoEAL6TKOXi4f@dpg-ctmlt3q3esus739qf44g-a.oregon-postgres.render.com/ten_brain_4fbd'
-        default='postgres://ten_brain_4fbd_user:84AaYq0fOoO6vbNmy7RSoEAL6TKOXi4f@https://tbrain.onrender.com/ten_brain_4fbd',
+        default='postgresql://ten_brain_4fbd_user:84AaYq0fOoO6vbNmy7RSoEAL6TKOXi4f@dpg-ctmlt3q3esus739qf44g-a/ten_brain_4fbd',
         conn_max_age=600
     )
 }
