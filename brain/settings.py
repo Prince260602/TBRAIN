@@ -39,8 +39,8 @@ ALLOWED_HOSTS = ["*"]
 
 #Email settings
 EMAIL_HOST="smtp.gmail.com" #smtp=simple mail transfer protocol
-EMAIL_HOST_USER="debadritapaul76@gmail.com" #sender
-EMAIL_HOST_PASSWORD="vgtuivjbzirejlcz"
+EMAIL_HOST_USER="princetarachand26@gmail.com" #sender
+EMAIL_HOST_PASSWORD="kdkp fwnb ysyq drgr"
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
 EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
@@ -96,8 +96,8 @@ WSGI_APPLICATION = 'brain.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        # default='postgres://USER:PASSWORD@HOST:PORT/DBNAME'
-        default='postgres://USER:PASSWORD@localhost:5432/DBNAME',
+        # default='postgresql://ten_brain_4fbd_user:84AaYq0fOoO6vbNmy7RSoEAL6TKOXi4f@dpg-ctmlt3q3esus739qf44g-a.oregon-postgres.render.com/ten_brain_4fbd'
+        # default='postgresql://USER:PASSWORD@localhost:5432/DBNAME',
         conn_max_age=600
     )
 }
